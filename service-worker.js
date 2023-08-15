@@ -12,6 +12,14 @@ var filesToCache = [
   '/Camping.html',
   '/Wisata.html',
   '/Tentang.html',
+  'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css',
+  'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap',
+  'https://fonts.googleapis.com/css2?family=Pacifico&display=swap',
+  'https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js',
+  'https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js',
+  'http://maps.google.com/maps/api/js?key=AIzaSyBuiA3MjmjAl7GaxihQierNuS9oA4llBPE',
+  'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/gmap3/7.2.0/gmap3.min.js',
 ];
 
 self.addEventListener('install', function(event) {
