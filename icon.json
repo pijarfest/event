@@ -1,0 +1,32 @@
+[
+  {
+    "imageUrl": "pijar.png",
+    "text": "Tentang",
+    "content": "Tentang.html"
+  },
+  {
+    "imageUrl": "map.png",
+    "text": "Wisata",
+    "content": "Wisata.html"
+  },
+  {
+    "imageUrl": "landscape.png",
+    "text": "Camping",
+	"content": "Camping.html"
+  },
+  {
+    "imageUrl": "tree.png",
+    "text": "Pinus",
+	"content": "Pinus.html"
+  },
+  {
+    "imageUrl": "travel.png",
+    "text": "Travel",
+	"content": "Travel.html"
+  },
+  {
+    "imageUrl": "ticket.png",
+    "text": "Ticket",
+	"content": "Ticket.html"
+  }
+]
