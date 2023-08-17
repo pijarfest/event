@@ -71,6 +71,21 @@
         width: 100%;
         object-fit: cover;
       }
+
+	  .iconisasi{
+		padding-left:10%;
+		padding-right:10%;
+	  }
+	  
+	  .iconisasi p{
+	  font-size:12px !important;
+	  }
+	  
+	  .iconisasi img{
+	   width: 50px;
+	   height: 50px;
+	  }    
+	    
     }
 	
 	.google-map-area {
@@ -139,7 +154,7 @@
   
 
 <div id="icon">
-  <div class="grid grid-cols-2 gap-8 mt-8 md:grid-cols-5 md:gap-8 lg:grid-cols-6 lg:gap-8">
+  <div class="iconisasi grid grid-cols-3 gap-8 mt-8 md:grid-cols-5 md:gap-8 lg:grid-cols-6 lg:gap-8">
     <div class="text-center" v-for="icon in visibleIcons" :key="icon.text">
       <img :src="icon.imageUrl" :alt="`${icon.text} Icon`" class="mx-auto w-32 h-32" @click="loadContent(icon.content)">
       <p class="mt-2 text-lg font-semibold">{{ icon.text }}</p>
